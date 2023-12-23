@@ -13,7 +13,7 @@ import { ContactInfo } from './entities/contact-info.entity';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      database: 'db1',
+      database: 'local1',
       username: 'postgres',
       password: 'root',
       entities: [__dirname + '/entities/*.entity.{js,ts}'],
